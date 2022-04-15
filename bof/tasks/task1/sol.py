@@ -1,6 +1,6 @@
-from pwn import *
+# HTB - You know 0xDiablos 
 
-# p = remote('161.35.41.77', 30023)
+from pwn import *
 
 p = process('./vuln')
 p.recvuntil('You know who are 0xDiablos:')
